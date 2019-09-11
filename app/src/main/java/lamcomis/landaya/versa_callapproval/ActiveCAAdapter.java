@@ -13,7 +13,7 @@ import android.widget.TextView;
 import org.apache.commons.lang3.StringUtils;
 
 import java.util.List;
-
+//Louise
 
 public class ActiveCAAdapter extends  RecyclerView.Adapter<ActiveCAAdapter.ViewHolder>{
     SQLiteDatabase db;
