@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cv"
+        android:layout_margin="5dp"
+        android:elevation="2dp"
+        card_view:cardElevation="2dp"
+        card_view:cardBackgroundColor="#fff"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+        <LinearLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:paddingBottom="10dp" android:paddingRight="20dp" android:paddingLeft="20dp" android:paddingTop="10dp" android:orientation="vertical">
+
+
+            <RelativeLayout android:layout_height="wrap_content"
+                android:layout_width="match_parent">
+
+                <TextView
+                    android:layout_marginTop="8dp"
+                    android:id="@+id/today_ca_employee"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="Louise Andaya"
+                    android:textColor="@color/cardview_dark_background"
+                    android:textStyle="bold"
+                    android:textSize="20sp"/>
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent">
+                <TextView
+                    android:id="@+id/text1"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="Customer: "
+                    android:textStyle="bold"
+                    android:textSize="15sp"
+                    android:textColor="@color/subheader_color_inverse"/>
+                <TextView
+                    android:id="@+id/today_ca_customer"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="a"
+                    android:layout_toRightOf="@+id/text1"
+                    android:textStyle="bold"
+                    android:textSize="15sp"
+                    android:textColor="@color/subheader_color_inverse"/>
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_marginTop="5dp">
+                <TextView
+                    android:id="@+id/text2"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="Purpose: "
+                    android:textStyle="bold" android:textSize="15sp"
+                    android:textColor="@color/subheader_color_inverse"/>
+                <TextView
+                    android:id="@+id/today_ca_purpose"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:layout_toRightOf="@+id/text2"
+                    android:text="Louise"
+                    android:textStyle="bold" android:textSize="15sp"
+                    android:textColor="@color/subheader_color_inverse"/>
+            </RelativeLayout>
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="10dp"/>
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+</RelativeLayout>

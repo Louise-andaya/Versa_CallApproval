@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@color/versa</color>
+    <color name="colorPrimaryDark">@color/versa</color>
+    <color name="colorAccent">@color/versa</color>
+
+    <color name="versa">#49BDE7 </color>
+    <color name="tool">#1d87ae</color>
+    <color name="log">#49BDE7</color>
+
+
+    <color name="header_color">#fff</color>
+    <color name="subheader_color">#95F8F8F8</color>
+    <color name="subheader_color_inverse">#8836404E</color>
+
+    <color name="header_bgcolor">#6A6C7E</color>
+    <color name="date_bgcolor">#4D546D</color>
+    <color name="textbgcolor">#5B6372</color>
+    <color name="white">#fff</color>
+
+    <color name="approve">@color/tool</color>
+    <color name="disapprove">@color/tool</color>
+</resources>

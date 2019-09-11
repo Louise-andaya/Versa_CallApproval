@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:id="@+id/namelinear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/image_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="18dp"
+            android:textColor="@color/cardview_dark_background"
+            android:textStyle="bold"
+            android:text="Louise" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/rel"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_below="@+id/namelinear"
+        android:padding="10dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/cell_shape">
+
+        <ImageView
+            android:id="@+id/ca_imageCapture"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:src="@drawable/cell_shape1" />
+
+
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btn_close"
+        android:layout_width="wrap_content"
+        android:layout_below="@+id/rel"
+        android:layout_alignParentRight="true"
+        android:layout_height="30dp"
+        android:layout_marginTop="5dp"
+        android:text="Close"
+        android:background="@color/versa"
+        android:textColor="@color/white"
+        android:textSize="12dp" />
+
+</RelativeLayout>
